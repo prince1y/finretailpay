@@ -1,0 +1,49 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle (if accidentally included)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+logs/
+*.out
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VSCode
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment/Sensitive
+.env
+*.env
+*.key
+*.pem
+*.crt
+
+# Other
+*.class
+*.jar
+*.war
+*.ear
+
+# Node (optional, if frontend later)
+node_modules/
